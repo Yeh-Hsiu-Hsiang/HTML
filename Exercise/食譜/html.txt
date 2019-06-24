@@ -1,0 +1,31 @@
+http://suyu823.pixnet.net/blog/post/31819059-%E5%85%A8%E7%B4%A0%EF%BC%9A%E9%A9%9A%E4%BA%BA%E7%9A%84%E7%9C%9F%E6%B5%B7%E7%B6%BF%E5%B7%A7%E5%85%8B%E5%8A%9B%E8%9B%8B%E7%B3%95
+
+
+js :http://www.flycan.com/article/javascript/javascript-2-1353.html
+
+http://blog.xuite.net/tolarku/blog/68219917-%E4%BB%A5+javascript+%E6%96%B9%E5%BC%8F%E8%BC%AA%E6%92%AD%E5%9C%96%E7%89%87+-+%E3%80%8C%E5%BE%AA%E5%BA%8F%E8%BC%AA%E6%92%AD%E3%80%8D%E8%88%87%E3%80%8C%E4%BA%82%E6%95%B8%E8%BC%AA%E6%92%AD%E3%80%8D
+
+水平捲動:https://blog.hsin.tw/2008/javascript-horizontal-menu/
+
+jQuery 輪播幻燈片插件:https://www.webmart.tw/blog/free-responsive-jquery-carousel-slider-plugins/
+
+[Javascript] 圖片輪播的效果:http://d8890007.blogspot.tw/2013/11/javascript.html
+
+youtube 廣告阻擋:Adblock for Youtube
+
+
+**
+
+color: https://color.adobe.com/zh/create/color-wheel/?base=2&rule=Analogous&selected=2&name=%E6%88%91%E7%9A%84%20Color%20%E4%B8%BB%E9%A1%8C&mode=rgb&rgbvalues=1,0.9358838679052269,0.8305348590231318,0.91,0.75578672171105,0.7614418803142866,0.9176718732980488,0.8805348590231319,1,0.75578672171105,0.8902639338665127,0.91,0.8647953274909272,1,0.8406840543816745&swatchOrder=0,1,2,3,4
+
+https://color.adobe.com/zh/create/color-wheel/?base=2&rule=Analogous&selected=3&name=%E6%88%91%E7%9A%84%20Color%20%E4%B8%BB%E9%A1%8C&mode=rgb&rgbvalues=1,0.7972967139445954,0.6787370977074318,0.91,0.617650758913763,0.8987337430161148,0.7287370977074319,0.7794034056889119,1,0.617650758913763,0.91,0.7972030850083085,0.9367027391967067,1,0.6888862930659745&swatchOrder=0,1,2,3,4
+
+http://kenwheeler.github.io/slick/
+
+https://chiayilai.com/%E8%87%AA%E5%B7%B1%E5%88%BB%E6%9C%80%E7%B0%A1%E5%96%AE%E6%9C%80%E9%AB%98%E6%95%88%E8%83%BD%E7%9A%84%E5%9C%96%E7%89%87%E8%BC%AA%E6%92%AD-very-simple-slide-show-in-vanilla-javascript/
+
+http://mepopedia.com/forum/read.php?804,76336
+
+http://abgne.tw/jquery/apply-jquery/jquery-left-and-right-horizontal-ad.html
+
+http://www.helloweba.com/view-blog-265.html

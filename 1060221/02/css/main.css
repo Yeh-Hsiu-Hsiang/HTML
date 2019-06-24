@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.header{
+	width:700px;
+	box-sizing:border-box;	/* 邊界連邊線、留白一起計算 */
+	height:100px;
+	line-height:100px;		
+	background:#9C9;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:40px;
+	/*text-align:center;*/
+	padding-left:20px;
+}
+
+
+div.content{
+	width:700px;
+	box-sizing:border-box;
+	margin-left:auto;		/* 左邊界 */
+	margin-right:auto;		/* 右邊界 */
+	text-align:justify;		/* 文字左右對齊 */
+	background:#CCC;
+	padding:20px;			/* 留白(內邊界) */
+}

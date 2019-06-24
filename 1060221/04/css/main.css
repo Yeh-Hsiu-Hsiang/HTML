@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------*/
+html, body{
+	background:#000;	
+	font-family: 'Cabin', sans-serif;
+}
+
+div.clear{
+	clear:both;		/* 不管向右向左浮動，皆清除 */
+}
+
+/*--------------------------------*/
+div.container{
+	width:800px;
+	margin-left:auto;		/* 左邊界 */
+	margin-right:auto;		/* 右邊界 */
+	box-sizing:border-box;	/* 邊界連邊線、留白一起計算 */
+}
+
+/*--------------------------------*/
+div.header{
+	height:150px;
+	line-height:100px;		/* 行距 */	
+	background:url(../images/a2.jpg);
+	color:#FFF;
+	font-size:40px;
+	/*text-align:center;*/
+	padding-left:20px;
+}
+
+/*--------------------------------*/
+div.content{
+	text-align:justify;		/* 文字左右對齊 */
+	background:#fff;
+	padding:20px;			/* 留白(內邊界) */
+}
+
+div.content img.left{
+	float:left;				/* 圖片靠左對齊 */
+	margin-right:15px;		/* 圖片右邊留白 */
+	border:5px solid #FFF;		/* 邊線 */
+	box-shadow:0px 0px 5px 2px #999;	/* 陰影 */
+}
+
+div.content img.right{
+	float:right;				
+	margin-left:15px;		
+	border:5px solid #FFF;		
+	box-shadow:0px 0px 5px 2px #999;	
+}
+
+
+div.footer{
+	height:150px;
+	line-height:100px;		/* 行距 */	
+	background:url(../images/a4.jpg);
+	color:#C66;
+	font-size:40px;
+	text-align:center;
+	padding-left:20px;
+}

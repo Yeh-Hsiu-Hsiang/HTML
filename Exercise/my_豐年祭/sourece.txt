@@ -1,0 +1,13 @@
+傳統祭儀
+http://www.knowlegde.ipc.gov.taipei/ct.asp?xItem=1001627&CtNode=17009&mp=cb01
+
+原住民祭--阿美族豐年祭
+http://media.huayuworld.org/local/web/Chinese/native/content4.htm
+
+馬卡巴嗨原住民豐年祭
+http://www.taitungcity.gov.tw/page.php?n=17
+
+https://color.adobe.com/zh/create/color-wheel/?base=2&rule=Analogous&selected=2&name=%E6%88%91%E7%9A%84%20Color%20%E4%B8%BB%E9%A1%8C&mode=rgb&rgbvalues=1,0.9475986307464355,0.7359308981832346,0.7141682818732297,0.91,0.7095480401568386,0.7819002887316903,0.9328659860247048,1,0.8083389020433827,0.6660292627458382,0.91,1,0.7936067953924955,0.7479901351731635&swatchOrder=0,1,2,3,4
+
+jQuery 控制網頁捲軸移動
+http://abgne.tw/jquery/apply-jquery/jquery-scroll-to-page-top.html

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.imageViewer img{
+	outline:none;
+	box-shadow:0px 0px 10px 1px #000;
+	margin-right:20px;
+	float:left;
+}
+
+p.imageViewer:after{	/* 在imageViewer之後 */
+ 	content:'';			/* 留個空格 */
+	display:block;		/* 與 content:'' 為一組 */
+	clear:both;			/* 清空空格 */
+}

@@ -1,0 +1,481 @@
+@charset "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../img/bg_contents.png) repeat;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:12px;
+	color:#46372C;
+	letter-spacing:0.1em;
+}
+
+a:link,
+a:visited {
+	color:#336633;
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	color:#999900;
+}
+a img {
+	border:none;
+}
+
+#wrap {
+	background:url(../img/bg_header.png) top center no-repeat;
+}
+#header {
+	position:relative;
+	width:870px;
+	height:120px;
+	margin:0 auto;
+}
+#header h1 {
+	position:absolute;
+	top:35px; left:40px;
+}
+#header .copy {
+	position:absolute;
+	top:35px; right:0;
+	height:23px;
+	float:left;
+	background:url(../img/bg_copy.png) top right no-repeat;
+	color:#FFFFFF;
+	line-height:1.6em;
+	vertical-align:bottom;
+}
+.copy span {
+	display:block;
+	float:left;
+	margin-right:10px;
+	background:url(../img/bg_copy.png) top left no-repeat;
+	height:23px;
+	padding:2px 10px 0px 20px;
+}
+#navi {
+	width:870px;
+	height:30px;
+	margin:10px auto 0 auto;
+	padding-left:38px;
+	list-style-type:none;
+}
+#navi li {
+	width:160px;
+	height:30px;
+	float:left;
+	margin-right:8px;
+}
+#navi a {
+	display:block;
+	width:135px;
+	height:23px;
+	padding:7px 0 0 25px;
+	background:url(../img/navi.png) no-repeat;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:1.6em;
+	vertical-align:bottom;
+}
+#navi a:hover,
+#contents_01 #navi_01 a,
+#contents_02 #navi_02 a,
+#contents_03 #navi_03 a,
+#contents_04 #navi_04 a,
+#contents_05 #navi_05 a {
+	background-position:0 -30px;
+}
+#contents {
+	width:870px;
+	margin:0 auto;
+}
+#contents_02 #contents,
+#contents_03 #contents,
+#contents_04 #contents,
+#contents_05 #contents {
+	background:url(../img/main_contents.png) repeat-y;
+}
+#main {
+	clear:both;
+	width:870px;
+	margin-bottom:20px;
+	background:url(../img/main_contents.png) repeat-y;
+	text-align:center;
+}
+#pickup {
+	width:250px;
+	margin-bottom:30px;
+	float:left;
+}
+#pickup {
+	list-style-type:none;
+}
+#pickup li {
+	width:250px;
+	margin-bottom:10px;
+	background:url(../img/pickup_contents.png) repeat-y;
+}
+#pickup li .pickup_contents {
+	width:230px;
+	margin:0 auto;
+}
+#pickup li h2 {
+	padding:10px 0 5px 0;
+	line-height:1.6em;
+	font-size:14px;
+	font-weight:bold;
+}
+#pickup li h2 a {
+	text-decoration:none;
+}
+#pickup li.pickup_01 {
+	float:left;
+}
+#pickup li.pickup_02 {
+	float:right;
+}
+#pickup li .text {
+	line-height:1.8em;
+}
+#pickup li h2 img {
+	padding-right:10px;
+}
+#info_new {
+	width:600px;
+	float:right;
+}
+#info {
+	background:url(../img/info_contents.png) repeat-y;
+	margin-bottom:10px;
+}
+#info h2 {
+	width:120px;
+	padding:5px 0 0 20px;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#info dl {
+	width:430px;
+	padding:5px 10px 0 0;
+	float:right;
+	position:relative;
+}
+#info dt {
+	position:absolute;
+    left:0;
+	width:100px;
+	padding-top:2px;
+	line-height:1.6em;
+	font-size:10px;
+	font-weight:bold;
+	color:#336633;
+}
+#info dd {
+	width:320px;
+	padding-left:100px;
+	line-height:1.8em;
+}
+#new {
+	width:600px;
+	margin-bottom:30px;
+	background:url(../img/new_contents.png) repeat-y;
+}
+#new_contents {
+	width:580px;
+	margin:0 auto;
+	padding-bottom:10px;
+}
+#new_contents h2 {
+	width:565px;
+	height:24px;
+	margin-bottom:10px;
+	padding:4px 0 0 15px;
+	background:url(../img/bg_new.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.6em;
+}
+*html #new_contents h2 {
+	margin-left:10px;
+}
+#new_contents h3 {
+	padding:5px 0;
+}
+#new_contents h3 a {
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#new_contents ul {
+	width:600px;
+	margin-right:-20px;
+	list-style-type:none;
+}
+*html #new_contents ul {
+	width:600px;
+	margin-right:-20px;
+	padding-left:10px;
+	list-style-type:none;
+}
+#new_contents ul li {
+	width:280px;
+	height:81px;
+	margin-right:20px;
+	border-bottom:dotted 1px #999999;
+	padding:10px 0;
+	float:left;
+	overflow:hidden;
+}
+#new_contents .new_img {
+	width:90px;
+	float:left;
+}
+#new_contents .new_detail {
+	line-height:1.6em;
+}
+#footer {
+	clear:both;
+	height:80px;
+	padding-top:20px;
+	background:url(../img/bg_footer.png) center;
+}
+#footer address {
+	font-size:10px;
+	font-style:normal;
+	text-align:center;
+}
+#contents_footer {
+	clear:both;
+	width:870px;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+#contents_inner {
+	width:830px;
+	margin:0 auto;
+}
+#title {
+	width:800px;
+	height:32px;
+	margin-top:10px;
+	padding:8px 15px 0 15px;
+	background:url(../img/bg_tit.png) no-repeat;
+}
+#title h2 {
+	width:370px;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.5em;
+	vertical-align:bottom;
+}
+#title .copy {
+	float:right;
+	padding-top:3px;
+	line-height:1.5em;
+	vertical-align:bottom;
+	font-size:12px;
+	text-align:right;
+}
+#news {
+	clear:both;
+	padding-bottom:30px;
+	list-style-type:none;
+}
+#news li {
+	border-bottom:dotted 1px #999999;
+	padding:20px 10px;
+}
+#news h3 {
+	width:500px;
+	margin-bottom:10px;
+	padding-left:15px;
+	float:left;
+	line-height:1.6em;
+	vertical-align:bottom;
+	background:url(../img/icon_01.png) no-repeat;
+	background-position:0 5px;
+	font-size:14px;
+	font-weight:bold;
+}
+#news .date {
+	width:100px;
+	float:right;
+	color:#336633;
+	font-weight:bold;
+	text-align:right;
+}
+#news .text {
+	clear:both;
+	padding:0 15px;
+	line-height:1.6em;
+}
+#concept {
+	clear:both;
+}
+#concept_text {
+	width:430px;
+	margin-top:30px;
+	padding-left:15px;
+	float:left;
+}
+#concept_text p {
+	line-height:1.8em;
+	margin-bottom:20px;
+}
+#concept_img {
+	width:360px;
+	height:430px;
+	margin-top:20px;
+	float:right;
+}
+#concept_photos {
+	clear:both;
+	list-style-type:none;
+}
+#concept_photos li {
+	padding:30px 0 20px 0;
+	float:left;
+}
+#concept_photos .photo {
+	margin-right:25px;
+}
+#products {
+	clear:both;
+	padding-top:20px;
+}
+#products_navi {
+	width:200px;
+	float:left;
+}
+#products_navi h2 {
+	margin-bottom:5px;
+	padding:5px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height:1.6em;
+	background-color:#738164;
+}
+#products_navi ul {
+	list-style-type:none;
+}
+#products_navi ul li {
+	border-bottom:dotted 1px #999999;
+	padding:10px 20px;
+	background:url(../img/icon_01.png) no-repeat;
+	background-position:4px 17px;
+}
+#products_navi ul li a {
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:1.6em;
+}
+#products_contents {
+	width:610px;
+	margin-bottom:20px;
+	float:right;
+}
+#products_contents h2 {
+	padding:5px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height:1.6em;
+	background-color:#52473A;
+}
+#products_contents ul {
+	list-style-type:none;
+}
+#products_contents ul li {
+	clear:both;
+}
+#products_contents ul li ul li {
+	border-bottom:dotted 1px #999999;
+	padding:20px 0;
+}
+#products_contents .photo {
+	margin-right:20px;
+	float:left;
+}
+#products_contents h3 {
+	margin:10px 0;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.6em;
+}
+#products_contents .text {
+	line-height:1.8em;
+}
+#products_contents .price {
+	margin-top:10px;
+	font-weight:bold;
+	color:#336633;
+	line-height:1.6em;
+}
+#products_contents .pagetop {
+	clear:both;
+	margin:10px 0 20px 0;
+	text-align:right;
+}
+#shop_info {
+	position:relative;
+	clear:both;
+	width:380px;
+	margin:40px 20px 0 0;
+	float:right;
+	line-height:1.8em;
+}
+*html #shop_info {
+	position:relative;
+	clear:both;
+	width:380px;
+	margin:40px 10px 0 0;
+	float:right;
+	line-height:1.8em;
+}
+#shop_info dt {
+	position:absolute;
+	left:0;
+	clear:both;
+	width:100px;
+	padding:10px 0 10px 5px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#336633;
+}
+#shop_info dd {
+	padding:10px 0 10px 100px;
+	border-bottom:dotted 1px #999999;
+}
+#shop_info_img {
+	width:400px;
+	margin:20px 0 10px 0;
+	float:left;
+	list-style-type:none;
+}
+#shop_info_img li {
+	margin-bottom:10px;
+}
+
+/* クリアフィックスハック */
+.clearfix:after { 
+	content:"";
+    display:block;
+    clear:both;
+} 
+.clearfix { 
+	display: inline-block; 
+}
+/* Mac版IE除外 \*/
+.clearfix { 
+	display: block; 
+}

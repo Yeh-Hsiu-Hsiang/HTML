@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../img/bg_contents.png) repeat-x;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:12px;
+	color:#42392D;
+	letter-spacing:0.1em;
+}
+a:link,
+a:visited {
+	color:#F88D10;
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	color:#669933;
+}
+a img {
+	border:none;
+}
+
+#wrap {
+	width:920px;
+	margin:0 auto;
+}
+#header {
+	position:relative;
+	height:150px;
+	background:url(../img/bg_logo.png) no-repeat;
+}
+#header h1 {
+	width:222px;
+	padding-top:20px;
+	text-align:center;
+}
+#header .copy {
+	position:absolute;
+	top:20px; right:0;
+	line-height:1.5em;
+	color:#F88D10;
+	text-align:right;
+}
+ul#navi {
+	position:absolute;
+	top:57px; right:0;
+	width:695px;
+	height:59px;
+	list-style-type:none;
+	text-align:center;
+}
+ul#navi li {
+	width:139px;
+	height:59px;
+	float:left;
+}
+ul#navi li a {
+	display:block;
+	width:139px;
+	height:49px;
+	padding-top:10px;
+	line-height:1.5em;
+	background:url(../img/navi.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+ul#navi li a span {
+	line-height:1.5em;
+	font-size:10px;
+	color:#EFE6C2;
+}
+ul#navi li a:hover,
+#contents_01 #navi_01 a,
+#contents_02 #navi_02 a,
+#contents_03 #navi_03 a,
+#contents_04 #navi_04 a,
+#contents_05 #navi_05 a {
+	background-position:0 -59px;
+}
+#contents {
+	clear:both;
+	padding-top:10px;
+}
+ul#contents {
+	list-style-type:none;
+}
+#main_area {
+	width:632px;
+	float:left;
+}
+#main_area h2 {
+	width:597px;
+	height:26px;
+	margin-bottom:15px;
+	padding:6px 10px 0 30px;
+	line-height:1.5em;
+	background:url(../img/bg_head_l.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+}
+#sub_area {
+	width:244px;
+	float:right;
+}
+#sub_area h2 {
+	width:204px;
+	height:25px;
+	margin-bottom:10px;
+	padding:7px 10px 0 30px;
+	line-height:1.5em;
+	background:url(../img/bg_head_s.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+}
+#main {
+	width:616px;
+	height:347px;
+	padding:16px 0 0 16px;
+	background:url(../img/bg_main.png) no-repeat;
+}
+.main_text {
+	padding:5px 15px 20px 15px;
+	line-height:1.6em;
+}
+#topics {
+	width:658px;
+	margin-right:-26px;
+	list-style-type:none;
+}
+#topics li {
+	width:202px;
+	margin-right:13px;
+	float:left;
+}
+#topics h3 {
+	padding-bottom:2px;
+	line-height:1.5em;
+	font-size:14px;
+	font-weight:bold;
+}
+#topics img {
+	border:solid 1px #CCCCCC;
+}
+.topics_text {
+	margin-top:15px;
+	padding:2px 0 0 15px;
+	background:url(../img/bg_topics.png) no-repeat;
+}
+.topics_text p {
+	line-height:1.6em;
+}
+#info {
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+#info dt {
+	padding:10px 10px 0 10px;
+	line-height:1.5em;
+	font-weight:bold;
+}
+#info dd {
+	border-bottom:dotted 1px #DFC89D;
+	padding:0 10px 10px 10px;
+	line-height:1.6em;
+}
+#tel_mail {
+	position:relative;
+	padding-top:10px;
+}
+#tel_mail dt {
+	position:absolute;
+	left:0;
+	width:50px;
+	line-height:1.5em;
+	background-color:#F4B338;
+	color:#FFFFFF;
+	text-align:center;
+}
+#tel_mail dd {
+	margin-bottom:10px;
+	padding-left:60px;
+	line-height:1.5em;
+}
+#tel_mail dd strong {
+	font-size:20px;
+	font-weight:normal;
+}
+#address dt {
+	margin:10px 0 5px 0;
+	line-height:1.5em;
+	background-color:#F4B338;
+	color:#FFFFFF;
+	text-align:center;
+}
+#address dd {
+	line-height:1.6em;
+}
+address {
+	clear:both;
+	margin-top:30px;
+	padding:40px 0 50px 0;
+	line-height:1.5em;
+	background:url(../img/bg_footer.png) repeat-x;
+	font-style:normal;
+	color:#FFFFFF;
+	text-align:center;
+}
+#title {
+	height:78px;
+	margin-top:20px;
+	padding:10px 0 0 30px;
+	line-height:1.5em;
+	background:url(../img/bg_tit.png) no-repeat 3px 0;
+}
+#title h2 {
+	font-size:22px;
+	font-weight:bold;
+}
+#title .copy {
+	margin-bottom:10px;
+	font-size:10px;
+	color:#EC9116;
+}
+#concept_text {
+	width:632px;
+	margin-left:32px;
+	float:left;
+	list-style:none;
+}
+*html #concept_text {
+	width:632px;
+	margin-left:16px;
+	float:left;
+	list-style:none;
+}
+#concept_text h3,
+#menu_text h3 {
+	width:597px;
+	height:26px;
+	margin-bottom:15px;
+	padding:6px 10px 0 30px;
+	line-height:1.5em;
+	background:url(../img/bg_head_l.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+}
+#concept_text .text,
+#menu_text .text {
+	margin:0 30px 40px 30px;
+	line-height:1.6em;
+}
+#concept_img {
+	width:202px;
+	float:right;
+	list-style:none;
+}
+#concept_img li,
+#menu_img li,
+#access_img li {
+	line-height:0.1em;
+	margin-bottom:10px;
+}
+#concept_img img,
+#menu_img img,
+#access_img img {
+	border:solid 2px #F8E6BC;
+}
+.head_text {
+	padding:0 0 30px 32px;
+	line-height:1.6em;
+}
+#menu_text {
+	width:632px;
+	float:right;
+	list-style:none;
+}
+#menu_img {
+	width:202px;
+	margin-left:32px;
+	float:left;
+	list-style:none;
+}
+*html #menu_img {
+	width:202px;
+	margin-left:16px;
+	float:left;
+	list-style:none;
+}
+#contents_04 ul#contents {
+	line-height:1.6em;
+}
+#contents_04 ul#contents li {
+	border-bottom:dotted 1px #F5B84A;
+	padding-bottom:15px;
+}
+#contents_04 ul#contents li h3 {
+	padding:15px 0 10px 20px;
+	background:url(../img/icon_01.png) no-repeat 0 18px;
+	font-size:14px;
+	font-weight:bold;
+}
+#contents_04 ul#contents li p {
+	margin-left:20px;
+}
+#contents_04 ul#contents li ul {
+	margin-top:10px;
+}
+#contents_04 ul#contents li ul li {
+	border:none;
+	margin-left:40px;
+	padding-bottom:0;
+	list-style-type:disc;
+	list-style-position:outside;
+}
+#access_text {
+	width:370px;
+	float:right;
+}
+#access_img {
+	width:450px;
+	margin:20px 0 20px 32px;
+	float:left;
+	list-style-type:none;
+}
+*html #access_img {
+	width:450px;
+	margin:20px 0 20px 16px;
+	float:left;
+}
+#shop_info {
+	position:relative;
+	clear:both;
+	width:370px;
+	margin:30px 0;
+	float:right;
+	line-height:1.8em;
+}
+#shop_info dt {
+	position:absolute;
+	left:0;
+	clear:both;
+	width:100px;
+	padding:10px 0 10px 5px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#F88D10;
+}
+#shop_info dd {
+	padding:10px 0 10px 110px;
+	border-bottom:dotted 1px #F5B84A;
+}
+#access_text p {
+	line-height:1.6em;
+}
+
+/* クリアフィックスハック */
+.clearfix:after { 
+	content:"";
+    display:block;
+    clear:both;
+} 
+.clearfix { 
+	display: inline-block; 
+}
+/* Mac版IE除外 \*/
+.clearfix { 
+	display: block; 
+}

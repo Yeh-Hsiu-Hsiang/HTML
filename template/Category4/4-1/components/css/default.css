@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:#372E2A url(../img/bg_contents.png) repeat-x;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size:12px;
+	color:#333333;
+	letter-spacing:0.1em;
+}
+a:link,
+a:visited {
+	color:#F4D8D8;
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	color:#FFCC33;
+}
+a img {
+	border:none;
+}
+
+#wrap {
+	width:980px;
+	margin:0 auto;
+}
+#header {
+	width:980px;
+	height:78px;
+	padding-top:30px;
+	background:url(../img/bg_header.png) no-repeat top right;
+}
+#header h1 {
+	width:480px;
+	float:left;
+}
+#contact {
+	width:480px;
+	float:right;
+	text-align:right;
+}
+#contact p {
+	display:inline;
+	vertical-align:middle;
+}
+#contact strong {
+	padding-right:10px;
+	line-height:1.5em;
+	font-weight:bold;
+}
+#contact .num {
+	line-height:1.5em;
+	font-size:30px;
+	font-weight:bold;
+}
+#navi {
+	width:980px;
+	height:58px;
+	list-style-type:none;
+}
+#navi li {
+	width:196px;
+	height:58px;
+	float:left;
+}
+#navi a {
+	display:block;
+	width:196px;
+	height:43px;
+	padding-top:15px;
+	background:url(../img/navi.png) no-repeat;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	line-height:1.5em;
+}
+#navi a:hover,
+#contents_01 #navi_01 a,
+#contents_02 #navi_02 a,
+#contents_03 #navi_03 a,
+#contents_04 #navi_04 a,
+#contents_05 #navi_05 a {
+	background-position:0 -58px;
+}
+#main {
+	width:659px;
+	height:489px;
+	margin-top:40px;
+	float:left;
+	padding:9px 0 0 9px;
+	background:url(../img/bg_main.png) no-repeat;
+}
+#about {
+	width:280px;
+	margin-top:50px;
+	float:right;
+	line-height:1.8em;
+	color:#FFFFFF;
+}
+#pickup {
+	width:290px;
+	margin:20px -10px 0 0;
+	padding-bottom:20px;
+	list-style-type:none;
+}
+#pickup li {
+	position:relative;
+	width:85px;
+	height:85px;
+	margin-right:5px;
+	padding:5px 0 0 5px;
+	float:left;
+	background-color:#FFFFFF;
+}
+#pickup li .plus {
+	position:absolute;
+	top:0; right:0;
+	width:17px;
+	height:0;
+	padding-top:17px;
+	background:url(../img/icon_01.png) no-repeat;
+	overflow:hidden;
+}
+#info h2 {
+	width:280px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	line-height:1.5em;
+	background:url(../img/line_01.png) no-repeat bottom;
+	font-size:16px;
+	font-weight:bold;
+}
+#info dl {
+	line-height:1.6em;
+}
+#info dl dd {
+	margin-bottom:20px;
+}
+address {
+	clear:both;
+	padding:40px 0;
+	/padding:20px 0;
+	font-style:normal;
+	color:#AA9D97;
+	text-align:center;
+	line-height:1.5em;
+}
+#contents_02 #contents,
+#contents_03 #contents,
+#contents_04 #contents,
+#contents_05 #contents {
+	width:963px;
+	margin:0 auto;
+	background:url(../img/second_contents.png) repeat-y;
+}
+#contents_02 #contents h2,
+#contents_03 #contents h2,
+#contents_04 #contents h2,
+#contents_05 #contents h2 {
+	width:850px;
+	height:74px;
+	margin:0 auto 10px auto;
+	padding:30px 0 0 30px;
+	background:url(../img/bg_tit.png) no-repeat;
+	font-size:30px;
+	color:#FFFFFF;
+	line-height:1.5em;
+}
+#news {
+	width:880px;
+	margin:0 auto 20px auto;
+	list-style-type:none;
+}
+#news li {
+	border-bottom:double 3px #A79B94;
+	padding:15px 0;
+}
+#news .date {
+	width:100px;
+	padding-left:10px;
+	float:left;
+	line-height:1.6em;
+}
+#news .news {
+	width:760px;
+	float:right;
+	line-height:1.6em;
+}
+#news .news h3 {
+	margin-bottom:10px;
+	font-size:14px;
+	font-weight:bold;
+}
+#concept {
+	position:relative;
+	width:880px;
+	height:530px;
+	margin:0 auto;
+}
+#concept h3 {
+	border-bottom:double 3px #A79B94;
+	margin-top:20px;
+	/margin-top:10px;
+	padding:0 0 10px 5px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.5em;
+}
+#concept .text {
+	width:510px;
+	margin-top:20px;
+	padding-left:5px;
+	line-height:1.8em;
+}
+#concept ul {
+	list-style-type:none;
+}
+#concept .photo_01 {
+	position:absolute;
+	top:270px; left:0;
+}
+#concept .photo_02 {
+	position:absolute;
+	top:270px; left:271px;
+}
+#concept .photo_03 {
+	position:absolute;
+	top:60px; right:0;
+}
+#menu {
+	width:880px;
+	margin:0 auto;
+	padding-bottom:20px;
+}
+#menu .text {
+	margin:20px 0 10px 0;
+	/margin:10px 0 10px 0;
+	padding:0 5px;
+	line-height:1.6em;
+}
+#menu ul {
+	width:900px;
+	margin-right:-20px;
+	list-style-type:none;
+}
+#menu ul li h3 {
+	border-top:double 3px #A79B94;
+	margin-top:10px;
+	padding:10px 0;
+	line-height:1.6em;
+	font-size:18px;
+	font-weight:bold;
+}
+#menu ul li ul li {
+	position:relative;
+	width:160px;
+	height:200px;
+	margin-right:20px;
+	float:left;
+	overflow:hidden;
+}
+#menu ul li ul li img {
+	border:solid 1px #A79B94;
+	padding:4px;
+	background-color:#FFFFFF;
+}
+#menu ul li ul li .plus {
+	position:absolute;
+	top:5px; right:5px;
+	width:17px;
+	height:0;
+	padding-top:17px;
+	background:url(../img/icon_01.png) no-repeat;
+	overflow:hidden;
+}
+#menu ul li ul li .cap {
+	padding-top:5px;
+	line-height:1.5em;
+}
+#access {
+	width:872px;
+	margin:0 auto;
+	padding:20px 0;
+}
+#access_info {
+	width:412px;
+	float:right;
+}
+#access_info h3 {
+	border-bottom:double 3px #A79B94;
+	padding-bottom:5px;
+	line-height:1.6em;
+	font-size:16px;
+	font-weight:bold;
+}
+#access_info .text {
+	padding:10px 0 20px 0;
+	line-height:1.6em;
+}
+#access_info_img {
+	width:420px;
+	float:left;
+	border:solid 1px #A79B94;
+	padding:4px;
+	background-color:#FFFFFF;
+}
+#access_info dl {
+	position:relative;
+	clear:both;
+	width:412px;
+	line-height:1.6em;
+}
+#access_info dt {
+	position:absolute;
+	left:0;
+	clear:both;
+	width:80px;
+	padding:5px;
+	float:left;
+	background-color:#A79B94;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#access_info dd {
+	border-bottom:solid 2px #FFFFFF;
+	padding:5px 5px 5px 100px;
+}
+#access ul {
+	position:relative;
+	clear:both;
+	height:190px;
+	list-style-type:none;
+}
+#access ul .photo_01 {
+	position:absolute;
+	left:0; top:20px;
+}
+#access ul .photo_02 {
+	position:absolute;
+	left:291px; top:20px;
+}
+#access ul .photo_03 {
+	position:absolute;
+	left:582px; top:20px;
+}
+
+/* クリアフィックスハック */
+.clearfix:after { 
+	content:"";
+    display:block;
+    clear:both;
+} 
+.clearfix { 
+	display: inline-block; 
+}
+/* Mac版IE除外 \*/
+.clearfix { 
+	display: block; 
+}

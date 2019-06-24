@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+div.navbar button{
+        font-family: 'Noto Sans TC', sans-serif;
+ }
+
+.dropdown-menu.dark ul{
+	background: rgba(255, 220, 148, 0.8);
+	}
+
+.dropdown-menu ul  {
+	background: rgba(99, 232, 170, 0.8); 
+	}
+	
+.dropdown-menu.dark ul li > a,
+.dropdown-menu.dark ul li label {
+	color: #000; 
+}
+.dropdown-menu ul li > a:not(.grey):hover, .dropdown-menu ul li > a:hover,
+.dropdown-menu ul li label:not(.grey):hover,
+.dropdown-menu ul li label:hover {
+background-color: rgba(172, 173, 255, 0.8);
+}
